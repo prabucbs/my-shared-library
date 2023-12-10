@@ -1,4 +1,4 @@
 def call() {
-    echo "Hello ${Name}"
+    echo "Hello ${env.Name}"
     // Add your build steps here
 }
